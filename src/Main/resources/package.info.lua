@@ -5,7 +5,7 @@ return { InfoVersion = 1, -- Dont touch this
     ID = "HttpClient", -- A unique id 
     Name = "HttpClient",
     Description = "A typewriter HttpClient",
-    Version = "1.0.0",
+    Version = "1.0.1",
 
     Author = {
         Developers = {
