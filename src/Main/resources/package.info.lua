@@ -30,7 +30,7 @@ return { InfoVersion = 1, -- Dont touch this
     },
 
     Entrypoints = {
-        Main = "me.corebyte.Http"
+        Main = "me.corebyte.Http.Hello"
     }
 
 }
