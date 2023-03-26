@@ -39,7 +39,7 @@ function Http.Request(Method, Url, Headers, Data, Options)
     end
 
     local Success, ParsedResponseData = pcall(Json.decode, ResponseData)
-    if Success and ParsedResponseData then
+    if type(ParsedResponseData) == "table" then
         ResponseData = ParsedResponseData
     end
 
